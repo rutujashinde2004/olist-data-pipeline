@@ -54,3 +54,5 @@ Python (Pandas, scikit-learn, matplotlib), SQL (CTEs, window functions), SQLite
 
 ## Customer Segmentation (RFM)
 Customers are scored 1-5 on Recency, Frequency and Monetary value and grouped into segments (Champions, Loyal, At Risk, Lost, New). KMeans clustering is applied on log-scaled RFM values as a second view. Note: 97% of customers have a single order, so frequency varies little and segments are driven mostly by recency and spend.
+## RFM Segments
+![RFM Segments](rfm_segments.png)
